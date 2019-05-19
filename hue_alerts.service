@@ -1,0 +1,14 @@
+[Unit]
+Description=NWS Philips Hue Severe Warning System
+
+[Service]
+PIDFile=/tmp/hue_alerts-99.pid
+User=hue_alerts
+Group=hue_alerts
+Restart=always
+KillSignal=SIGQUIT
+WorkingDirectory=/home/hue_alerts/NWS-Hue-Alerts/
+ExecStart=/home/hue_alerts/NWS-Hue-Alerts/index.js
+
+[Install]
+WantedBy=multi-user.target
