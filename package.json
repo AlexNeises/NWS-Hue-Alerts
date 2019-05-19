@@ -1,0 +1,18 @@
+{
+  "name": "hue-warnings",
+  "version": "1.0.0",
+  "description": "Flash connected Philips Hue bulbs when in range of a specified NWS Warning.",
+  "main": "index.js",
+  "author": "Alex Neises",
+  "license": "MIT",
+  "engines": {
+    "node": "^10"
+  },
+  "dependencies": {
+    "@xmpp/client": "^0.7.3",
+    "@xmpp/component": "^0.7.1",
+    "@xmpp/debug": "^0.7.0",
+    "lodash": "^4.17.11",
+    "node-hue-api": "^2.4.5"
+  }
+}
