@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const _ = require('lodash');
 const hue = require('node-hue-api');
 const HueApi = hue.HueApi;
